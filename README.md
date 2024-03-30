@@ -21,10 +21,10 @@
 Check ruby version with `ruby -v` and if it returns `(ruby 2.6.10p210)`:
 
 1. Install Ruby package manager (I chose `frum`)
-  - install a new ruby version with `$ frum install`
-  - its important that we don't `brew install` a newer ruby version so it doesn't clash with the system version
+    - install a new ruby version with `$ frum install`
+    - its important that we don't `brew install` a newer ruby version so it doesn't clash with the system version
 2. Make sure that `frum` is evaluated in the shell environment before you run any of the below commands
-  - `$ eval "$(frum init)"`
+    - `$ eval "$(frum init)"`
 
 
 
