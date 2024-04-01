@@ -38,7 +38,7 @@ $ bundle
 
 ### Running Local Server
 
-**For one-off testing**:
+**For fully regenerative testing**:
 ```terminal
 $ bundle exec jekyll s
 ```
@@ -49,7 +49,7 @@ $ bundle exec jekyll s
 ```terminal
 $ bundle exec jekyll s --incremental
 ```
-> there is some weirdness sometimes with incremental updating, if something is not updating, run the "one-off" command to "update" everything
+> there is some weirdness sometimes with incremental updating, if something is not updating, run the "fully regenerative" command to "update" everything
 
 
 
